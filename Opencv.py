@@ -11,11 +11,7 @@ def imread_unicode(path, flags=cv2.IMREAD_COLOR):
     return cv2.imdecode(arr, flags)
 
 def test(url1_filename, A, B):
-    """
-    url1_filename: 기준 이미지 파일명 (예: 'A5.jpg')
-    A: 비교 세트 index (0:A, 1:B, 2:C, 3:D)
-    B: 비교 번호 (0~9)
-    """
+
     base_path = r"C:/opencv/img/"
 
     # 실제 경로 조립
@@ -88,13 +84,13 @@ def test(url1_filename, A, B):
     else:
         print(f"{url2}\tX", end="\t")
 
-    # 매칭 시각화가 필요하면 저장(옵션)
+    # 매칭 시각화가 필요하면 저장
     res = cv2.drawMatches(img1, kp1, img2, kp2, good, None,
                           flags=cv2.DRAW_MATCHES_FLAGS_NOT_DRAW_SINGLE_POINTS)
     cv2.imwrite(os.path.join(base_path, "last_match.jpg"), res)
 
 if __name__ == "__main__":
-    # 기준(표본) 이미지 목록: 파일명만 넣어야 중복 경로가 생기지 않습니다.
+
     lists = ["A5.jpg", "B5.jpg", "C5.jpg", "D5.jpg"]
 
     for i in range(4):
