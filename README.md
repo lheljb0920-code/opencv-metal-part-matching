@@ -65,3 +65,8 @@ C:/opencv/img/A7.jpg    X       C:/opencv/img/B7.jpg    X       C:/opencv/img/C7
 C:/opencv/img/A8.jpg    X       C:/opencv/img/B8.jpg    X       C:/opencv/img/C8.jpg    O       C:/opencv/img/D8.jpg    O
 C:/opencv/img/A9.jpg    X       C:/opencv/img/B9.jpg    X       C:/opencv/img/C9.jpg    O       C:/opencv/img/D9.jpg    O
 
+<p align="center">
+  <img src="docs/images/success_sample.jpg" alt="same-match" width="45%">
+  <img src="docs/images/failure_sample.jpg" alt="diff-match" width="45%">
+</p>
+
