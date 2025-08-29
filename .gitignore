@@ -1,0 +1,8 @@
+﻿__pycache__/
+*.pyc
+.vscode/
+.idea/
+.venv/
+results/
+**/matches/
+*.log
