@@ -18,10 +18,7 @@ pip install -r requirements.txt
 
 # 스크립트 실행 
 python Opencv.py
-**
-## 실행 로그 (접힘)
-<details>
-<summary>클릭해서 실행 로그 펼치기</summary>
+
 
 ```text
 (opencv) C:\Users\LHE>C:/Users/test/envs/opencv/python.exe c:/opencv/Opencv.py
