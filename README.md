@@ -18,3 +18,58 @@ pip install -r requirements.txt
 
 # 스크립트 실행 
 python Opencv.py
+**
+## 실행 로그 (접힘)
+<details>
+<summary>클릭해서 실행 로그 펼치기</summary>
+
+```text
+(opencv) C:\Users\LHE>C:/Users/test/envs/opencv/python.exe c:/opencv/Opencv.py
+
+표본 : A5.jpg
+C:/opencv/img/A0.jpg    X       C:/opencv/img/B0.jpg    X       C:/opencv/img/C0.jpg    X       C:/opencv/img/D0.jpg    X
+C:/opencv/img/A1.jpg    X       C:/opencv/img/B1.jpg    X       C:/opencv/img/C1.jpg    X       C:/opencv/img/D1.jpg    X
+C:/opencv/img/A2.jpg    O       C:/opencv/img/B2.jpg    X       C:/opencv/img/C2.jpg    X       C:/opencv/img/D2.jpg    X
+C:/opencv/img/A3.jpg    X       C:/opencv/img/B3.jpg    X       C:/opencv/img/C3.jpg    X       C:/opencv/img/D3.jpg    X
+C:/opencv/img/A4.jpg    O       C:/opencv/img/B4.jpg    X       C:/opencv/img/C4.jpg    X       C:/opencv/img/D4.jpg    X
+C:/opencv/img/A5.jpg    O       C:/opencv/img/B5.jpg    X       C:/opencv/img/C5.jpg    X       C:/opencv/img/D5.jpg    X
+C:/opencv/img/A6.jpg    O       C:/opencv/img/B6.jpg    X       C:/opencv/img/C6.jpg    X       C:/opencv/img/D6.jpg    X
+C:/opencv/img/A7.jpg    O       C:/opencv/img/B7.jpg    X       C:/opencv/img/C7.jpg    O       C:/opencv/img/D7.jpg    X
+C:/opencv/img/A8.jpg    O       C:/opencv/img/B8.jpg    X       C:/opencv/img/C8.jpg    X       C:/opencv/img/D8.jpg    X
+C:/opencv/img/A9.jpg    O       C:/opencv/img/B9.jpg    X       C:/opencv/img/C9.jpg    O       C:/opencv/img/D9.jpg    X
+
+표본 : B5.jpg
+C:/opencv/img/A0.jpg    X       C:/opencv/img/B0.jpg    X       C:/opencv/img/C0.jpg    X       C:/opencv/img/D0.jpg    X
+C:/opencv/img/A1.jpg    X       C:/opencv/img/B1.jpg    X       C:/opencv/img/C1.jpg    X       C:/opencv/img/D1.jpg    X
+C:/opencv/img/A2.jpg    X       C:/opencv/img/B2.jpg    X       C:/opencv/img/C2.jpg    X       C:/opencv/img/D2.jpg    X
+C:/opencv/img/A3.jpg    X       C:/opencv/img/B3.jpg    O       C:/opencv/img/C3.jpg    X       C:/opencv/img/D3.jpg    X
+C:/opencv/img/A4.jpg    X       C:/opencv/img/B4.jpg    X       C:/opencv/img/C4.jpg    X       C:/opencv/img/D4.jpg    X
+C:/opencv/img/A5.jpg    X       C:/opencv/img/B5.jpg    O       C:/opencv/img/C5.jpg    X       C:/opencv/img/D5.jpg    X
+C:/opencv/img/A6.jpg    X       C:/opencv/img/B6.jpg    O       C:/opencv/img/C6.jpg    X       C:/opencv/img/D6.jpg    X
+C:/opencv/img/A7.jpg    X       C:/opencv/img/B7.jpg    O       C:/opencv/img/C7.jpg    X       C:/opencv/img/D7.jpg    X
+C:/opencv/img/A8.jpg    X       C:/opencv/img/B8.jpg    O       C:/opencv/img/C8.jpg    X       C:/opencv/img/D8.jpg    X
+C:/opencv/img/A9.jpg    X       C:/opencv/img/B9.jpg    O       C:/opencv/img/C9.jpg    X       C:/opencv/img/D9.jpg    X
+
+표본 : C5.jpg
+C:/opencv/img/A0.jpg    X       C:/opencv/img/B0.jpg    X       C:/opencv/img/C0.jpg    X       C:/opencv/img/D0.jpg    X
+C:/opencv/img/A1.jpg    O       C:/opencv/img/B1.jpg    X       C:/opencv/img/C1.jpg    X       C:/opencv/img/D1.jpg    X
+C:/opencv/img/A2.jpg    O       C:/opencv/img/B2.jpg    X       C:/opencv/img/C2.jpg    O       C:/opencv/img/D2.jpg    X
+C:/opencv/img/A4.jpg    O       C:/opencv/img/B4.jpg    X       C:/opencv/img/C4.jpg    X       C:/opencv/img/D4.jpg    X
+C:/opencv/img/A5.jpg    O       C:/opencv/img/B5.jpg    O       C:/opencv/img/C5.jpg    O       C:/opencv/img/D5.jpg    O
+C:/opencv/img/A6.jpg    X       C:/opencv/img/B6.jpg    X       C:/opencv/img/C6.jpg    O       C:/opencv/img/D6.jpg    X
+C:/opencv/img/A7.jpg    O       C:/opencv/img/B7.jpg    X       C:/opencv/img/C7.jpg    O       C:/opencv/img/D7.jpg    X
+C:/opencv/img/A8.jpg    O       C:/opencv/img/B8.jpg    X       C:/opencv/img/C8.jpg    O       C:/opencv/img/D8.jpg    O
+C:/opencv/img/A9.jpg    X       C:/opencv/img/B9.jpg    X       C:/opencv/img/C9.jpg    O       C:/opencv/img/D9.jpg    X
+
+표본 : D5.jpg
+C:/opencv/img/A0.jpg    X       C:/opencv/img/B0.jpg    X       C:/opencv/img/C0.jpg    X       C:/opencv/img/D0.jpg    X
+C:/opencv/img/A1.jpg    X       C:/opencv/img/B1.jpg    O       C:/opencv/img/C1.jpg    X       C:/opencv/img/D1.jpg    X
+C:/opencv/img/A2.jpg    O       C:/opencv/img/B2.jpg    X       C:/opencv/img/C2.jpg    O       C:/opencv/img/D2.jpg    X
+C:/opencv/img/A3.jpg    X       C:/opencv/img/B3.jpg    X       C:/opencv/img/C3.jpg    O       C:/opencv/img/D3.jpg    X
+C:/opencv/img/A4.jpg    O       C:/opencv/img/B4.jpg    X       C:/opencv/img/C4.jpg    O       C:/opencv/img/D4.jpg    O
+C:/opencv/img/A5.jpg    X       C:/opencv/img/B5.jpg    X       C:/opencv/img/C5.jpg    O       C:/opencv/img/D5.jpg    O
+C:/opencv/img/A6.jpg    X       C:/opencv/img/B6.jpg    X       C:/opencv/img/C6.jpg    O       C:/opencv/img/D6.jpg    O
+C:/opencv/img/A7.jpg    X       C:/opencv/img/B7.jpg    X       C:/opencv/img/C7.jpg    X       C:/opencv/img/D7.jpg    O
+C:/opencv/img/A8.jpg    X       C:/opencv/img/B8.jpg    X       C:/opencv/img/C8.jpg    O       C:/opencv/img/D8.jpg    O
+C:/opencv/img/A9.jpg    X       C:/opencv/img/B9.jpg    X       C:/opencv/img/C9.jpg    O       C:/opencv/img/D9.jpg    O
+
