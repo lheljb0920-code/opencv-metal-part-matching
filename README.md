@@ -19,8 +19,6 @@ pip install -r requirements.txt
 # 스크립트 실행 
 python Opencv.py
 
-
-```text
 (opencv) C:\Users\LHE>C:/Users/test/envs/opencv/python.exe c:/opencv/Opencv.py
 
 표본 : A5.jpg
@@ -69,5 +67,4 @@ C:/opencv/img/A6.jpg    X       C:/opencv/img/B6.jpg    X       C:/opencv/img/C6
 C:/opencv/img/A7.jpg    X       C:/opencv/img/B7.jpg    X       C:/opencv/img/C7.jpg    X       C:/opencv/img/D7.jpg    O
 C:/opencv/img/A8.jpg    X       C:/opencv/img/B8.jpg    X       C:/opencv/img/C8.jpg    O       C:/opencv/img/D8.jpg    O
 C:/opencv/img/A9.jpg    X       C:/opencv/img/B9.jpg    X       C:/opencv/img/C9.jpg    O       C:/opencv/img/D9.jpg    O
-
 </details> ```
