@@ -20,7 +20,7 @@ pip install -r requirements.txt
 python Opencv.py
 ```
 
-## 실행 로그 (접힘)
+## 결과값
 <details>
 <summary>클릭해서 실행 로그 펼치기</summary>
 
