@@ -20,8 +20,7 @@ pip install -r requirements.txt
 python Opencv.py
 
 
-```
-text
+```text
 (opencv) C:\Users\LHE>C:/Users/test/envs/opencv/python.exe c:/opencv/Opencv.py
 
 표본 : A5.jpg
