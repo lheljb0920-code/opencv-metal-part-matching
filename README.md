@@ -22,7 +22,7 @@ python Opencv.py
 
 ## 결과값
 <details>
-<summary>클릭해서 실행 로그 펼치기</summary>
+<summary>클릭해서 결과값 펼치기</summary>
 
 ```text
 (opencv) C:\Users\LHE>C:/Users/test/envs/opencv/python.exe c:/opencv/Opencv.py
